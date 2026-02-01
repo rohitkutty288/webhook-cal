@@ -1,9 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my_cal_app
-  labels:
-    app: calculator
+  name: calculator-deployment
 spec:
   replicas: 2
   selector:
