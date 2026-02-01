@@ -5,9 +5,8 @@ metadata:
 spec:
   replicas: 2
   selector:
-    metadata:
-      matchLabels:
-        app: calculator
+    matchLabels:
+      app: calculator
   template:
     metadata:
       labels:
