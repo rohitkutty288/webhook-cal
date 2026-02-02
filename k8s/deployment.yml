@@ -16,4 +16,4 @@ spec:
         - name: my_calculator
           image: dockerhub-rohitkutty288/webhook-cal:latest
           ports:
-            - containerPorts: 5000
+            - containerPort: 5000
