@@ -13,7 +13,7 @@ spec:
         app: calculator
     spec:
       containers:
-        - name: my_calculator
+        - name: my-calculator
           image: dockerhub-rohitkutty288/webhook-cal:latest
           ports:
             - containerPort: 5000
